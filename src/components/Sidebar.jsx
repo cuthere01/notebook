@@ -12,7 +12,7 @@ export default function Sidebar(props) {
             >
                 <h4 className="text-snippet">{note.body.split('\n')[0]}</h4>
                 <div className="delete-btn" onClick={()=>props.deleteNote(note.id)}>
-                    <img src="./assets/media/trashbin.svg" alt="del" />
+                    <img src="./media/trashbin.svg" alt="del" />
                 </div>
             </div>
         </div>
